@@ -1,0 +1,99 @@
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 5%;
+  width: 20%;
+  height: 38%;
+  left: 38%;
+  top: 3%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.createbutton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.createbutton:hover {
+  background-color: #3e8e41;
+}
+
+.createtext {
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #232931;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 50%;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label {
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+.display-notes-container {
+  display: flex;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+
+}
+
+.display-each-notes {
+  width: 300px;
+  height: 250px;
+  background: #fff;
+  background-color: #f7f7f7;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  perspective: 800px;
+  margin: 20px;
+
+}
+
+.note-title {
+  margin: 20%
+}
+
+.note {
+  margin: 20%;
+}
+
+@media(max-width: 800px) {
+  .display-notes-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+
+  .container {
+    width: 35%;
+    height: 38%;
+  }
+}
+
+.note-link {
+  text-decoration: none;
+}
