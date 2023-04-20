@@ -36,4 +36,4 @@ next-env.d.ts
 
 #PocketBase
 /pb_data
-_pb_migrations
+/_pb_migrations
